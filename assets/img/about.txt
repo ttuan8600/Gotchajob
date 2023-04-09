@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Sue Ellen Francisco
+- Font Author: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
+- Font Source: http://fonts.gstatic.com/s/sueellenfrancisco/v16/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9ropF2lqk9H4.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
