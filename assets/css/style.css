@@ -1125,6 +1125,114 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing .box {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing .box h3 {
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  background: #f8f8f8;
+}
+
+.pricing .box h4 {
+  font-size: 36px;
+  color: #ffc451;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing .box h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing .box ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing .box ul i {
+  color: #ffc451;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing .box ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing .btn-wrap {
+  margin: 20px -20px -20px -20px;
+  padding: 20px 15px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.pricing .btn-buy {
+  color: #ffc451;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #ffc451;
+}
+
+.pricing .btn-buy:hover {
+  background: #ffc451;
+  color: #343a40;
+}
+
+.pricing .featured h3 {
+  background: #ffbb38;
+  color: #343a40;
+}
+
+.pricing .advanced {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #ffc451;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
