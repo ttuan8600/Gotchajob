@@ -1992,6 +1992,10 @@ section {
   padding: 60px 0;
 }
 
+.team h5{
+  text-align: center;
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
