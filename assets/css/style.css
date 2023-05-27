@@ -668,6 +668,10 @@ section {
   overflow: hidden;
 }
 
+.section-bg {
+  background-color: #f6f9fe;
+}
+
 .section-title {
   padding-bottom: 40px;
 }
@@ -2282,13 +2286,13 @@ section {
   background: #0e82c4;
   border: 0;
   padding: 10px 24px;
-  color: #151515;
+  color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0e82c4;
+  background: #0e81c482;
 }
 
 @keyframes animate-loading {
@@ -2299,6 +2303,308 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*--------------------------------------------------------------
+# Get a Quote Section
+--------------------------------------------------------------*/
+.get-a-quote .quote-bg {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.get-a-quote .php-email-form {
+  background: #f3f6fc;
+  padding: 40px;
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .get-a-quote .php-email-form {
+    padding: 20px;
+  }
+}
+
+.get-a-quote .php-email-form h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.get-a-quote .php-email-form h4 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px 0 0 0;
+}
+
+.get-a-quote .php-email-form p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.get-a-quote .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #df1529;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.get-a-quote .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.get-a-quote .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.get-a-quote .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #059652;
+  border-top-color: #fff;
+  animation: animate-loading 1s linear infinite;
+}
+
+.get-a-quote .php-email-form input,
+.get-a-quote .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.get-a-quote .php-email-form input:focus,
+.get-a-quote .php-email-form textarea:focus {
+  border-color: var(--color-primary);
+}
+
+.get-a-quote .php-email-form input {
+  padding: 12px 15px;
+}
+
+.get-a-quote .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.get-a-quote .php-email-form button[type=submit] {
+  background: #0e82c4;
+  border: 1px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.get-a-quote .php-email-form button[type=submit]:hover {
+  background: #0e81c47d;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Horizontal Pricing Section
+--------------------------------------------------------------*/
+.horizontal-pricing .pricing-item {
+  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+  padding-bottom: 30px;
+  background: #fff;
+  height: 100%;
+  position: relative;
+}
+
+.horizontal-pricing h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 24px;
+  color: var(--color-secondary);
+}
+
+.horizontal-pricing h4 {
+  font-size: 48px;
+  color: var(--color-primary);
+  font-weight: 400;
+  font-family: var(--font-primary);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.horizontal-pricing h4 sup {
+  font-size: 28px;
+}
+
+.horizontal-pricing h4 span {
+  color: rgba(108, 117, 125, 0.8);
+  font-size: 18px;
+}
+
+.horizontal-pricing ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #6c757d;
+  text-align: left;
+  line-height: 20px;
+}
+
+.horizontal-pricing ul li {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-pricing ul i {
+  color: #059652;
+  font-size: 24px;
+  padding-right: 3px;
+}
+
+.horizontal-pricing ul .na {
+  color: rgba(108, 117, 125, 0.5);
+}
+
+.horizontal-pricing ul .na i {
+  color: rgba(108, 117, 125, 0.5);
+}
+
+.horizontal-pricing ul .na span {
+  text-decoration: line-through;
+}
+
+.horizontal-pricing .buy-btn {
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  font-family: var(--font-primary);
+}
+
+.horizontal-pricing .buy-btn:hover {
+  background: #406aff;
+  border-color: #406aff;
+}
+
+.horizontal-pricing .featured {
+  background: var(--color-primary);
+}
+
+.horizontal-pricing .featured h3,
+.horizontal-pricing .featured h4,
+.horizontal-pricing .featured h4 span,
+.horizontal-pricing .featured ul,
+.horizontal-pricing .featured ul .na,
+.horizontal-pricing .featured ul i,
+.horizontal-pricing .featured ul .na i {
+  color: #fff;
+}
+
+.horizontal-pricing .featured .buy-btn {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: #fff;
+}
+
+.horizontal-pricing .featured .buy-btn:hover {
+  background: #fff;
+  color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq {
+  padding: 60px 0;
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  border-bottom: 1px solid #d4e5fc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.faq .faq-list .question {
+  display: block;
+  position: relative;
+  font-family: #106eea;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 25px;
+  cursor: pointer;
+  color: #0d58ba;
+  transition: 0.3s;
+}
+
+.faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 25px;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list .collapsed {
+  color: black;
+}
+
+.faq .faq-list .collapsed:hover {
+  color: #106eea;
+}
+
+.faq .faq-list .collapsed .icon-show {
+  display: inline-block;
+  transition: 0.6s;
+}
+
+.faq .faq-list .collapsed .icon-close {
+  display: none;
+  transition: 0.6s;
 }
 
 /*--------------------------------------------------------------
