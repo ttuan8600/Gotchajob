@@ -55,7 +55,7 @@ h6 {
 }
 
 .breadcrumbs nav {
-  background-color: #f3f6fc;
+  background-color: #f0f0f089;
   padding: 20px 0;
 }
 
@@ -67,11 +67,11 @@ h6 {
   padding: 0;
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-secondary);
+  color: #343a40;
 }
 
 .breadcrumbs nav ol a {
-  color: var(--color-primary);
+  color: #0e82c4;
   transition: 0.3s;
 }
 
@@ -86,7 +86,7 @@ h6 {
 .breadcrumbs nav ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4278cc;
+  color: #202020;
   content: "/";
 }
 
@@ -2304,7 +2304,7 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
+/* .breadcrumbs {
   background: whitesmoke;
   min-height: 40px;
 }
@@ -2349,7 +2349,7 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
