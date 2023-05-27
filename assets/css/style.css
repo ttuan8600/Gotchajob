@@ -38,7 +38,7 @@ h6 {
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-color: rgba(14, 29, 52, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   inset: 0;
 }
