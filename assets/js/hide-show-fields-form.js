@@ -1,16 +1,25 @@
 $("#seeAnotherField").change(function() {
 			if ($(this).val() == "yes") {
-				$('#otherFieldDiv').show();
-				$('#otherField').attr('required','');
-				$('#otherField').attr('data-error', 'This field is required.');
+				$('#otherFieldDiv1').show();
+				$('#otherField1').attr('required','');
+				$('#otherField1').attr('data-error', 'This field is required.');
+				$('#otherFieldDiv2').hide();
+				$('#otherField2').removeAttr('required');
+				$('#otherField2').removeAttr('data-error');	
 			}else if($(this).val() == "maybe"){
-				$('#otherFieldDiv').hide();
-				$('#otherField').removeAttr('required');
-				$('#otherField').removeAttr('data-error');
+				$('#otherFieldDiv2').show();
+				$('#otherField2').attr('required','');
+				$('#otherField2').attr('data-error', 'This field is required.');
+				$('#otherFieldDiv1').hide();
+				$('#otherField1').removeAttr('required');
+				$('#otherField1').removeAttr('data-error');
 			} else {
-				$('#otherFieldDiv').hide();
-				$('#otherField').removeAttr('required');
-				$('#otherField').removeAttr('data-error');				
+				$('#otherFieldDiv1').hide();
+				$('#otherField1').removeAttr('required');
+				$('#otherField1').removeAttr('data-error');		
+				$('#otherFieldDiv2').hide();
+				$('#otherField2').removeAttr('required');
+				$('#otherField2').removeAttr('data-error');		
 			}
 		});
 		$("#seeAnotherField").trigger("change");
