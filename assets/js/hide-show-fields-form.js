@@ -3,6 +3,10 @@ $("#seeAnotherField").change(function() {
 				$('#otherFieldDiv').show();
 				$('#otherField').attr('required','');
 				$('#otherField').attr('data-error', 'This field is required.');
+			}else if($(this).val() == "maybe"){
+				$('#otherFieldDiv').hide();
+				$('#otherField').removeAttr('required');
+				$('#otherField').removeAttr('data-error');
 			} else {
 				$('#otherFieldDiv').hide();
 				$('#otherField').removeAttr('required');
