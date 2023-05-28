@@ -16,7 +16,7 @@ $("#seeAnotherFieldGroup").change(function() {
 				$('#otherFieldGroupDiv').show();
 				$('#otherField1').attr('required','');
 				$('#otherField1').attr('data-error', 'This field is required.');
-        $('#otherField2').attr('required','');
+        		$('#otherField2').attr('required','');
 				$('#otherField2').attr('data-error', 'This field is required.');
 			} else {
 				$('#otherFieldGroupDiv').hide();
